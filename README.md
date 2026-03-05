@@ -6,7 +6,7 @@ A styled feedback survey form built with pure HTML and CSS. Dark neon theme, gro
 
 ## What it does
 
-Collects user feedback through a structured form: personal details, role selection, a recommendation rating, favourite feature, improvement checkboxes, and a free-text comment box. It's a front-end only template — drop it into any project or connect it to a backend/form service when needed.
+Collects user feedback through a structured form: personal details, role selection, a recommendation rating, favourite feature, improvement checkboxes, and a free-text comment box. It's a front-end only template - drop it into any project or connect it to a backend/form service when needed.
 
 ---
 
@@ -88,7 +88,7 @@ Key things practised:
 
 ## Author
 
-**Dumitru Gafincu** — [github.com/dmtr-g](https://github.com/dmtr-g) — 115009621+dmtr-g@users.noreply.github.com
+**Dumitru Gafincu** - [github.com/dmtr-g](https://github.com/dmtr-g) - 115009621+dmtr-g@users.noreply.github.com
 
 ---
 
