@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!--
+  Modern survey form template
+  - semantic markup with accessibility in mind
+  - animations via CSS keyframes
+  - responsive layout
+ -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A clean, modern survey form built with HTML and CSS only">
+  <link rel="stylesheet" href="styles.css">
+  <title>Survey Form</title>
+</head>
+<body>
+  <header>
+    <h1 id="title">Feedback Survey</h1>
+    <p id="description">Thanks for helping us improve - your input matters!</p>
+  </header>
+
+  <main>
+    <form id="survey-form" novalidate>
+      <!-- personal info -->
+      <fieldset>
+        <legend>Personal information</legend>
+        <label for="name">Name <span aria-hidden="true">*</span>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </label>
+        <label for="email">Email <span aria-hidden="true">*</span>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </label>
+        <label for="age">Age (optional)
+          <input type="number" id="age" name="age" min="13" max="120" placeholder="Age">
+        </label>
+      </fieldset>
+
+      <!-- role selection -->
+      <fieldset>
+        <legend>Current role</legend>
+        <label for="role">
+          Which option best describes your current role?
+          <select id="role" name="role" required>
+            <option value="">Select current role</option>
+            <option>Student</option>
+            <option>Full-time job</option>
+            <option>Full-time learner</option>
+            <option>Prefer not to say</option>
+            <option>Other</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <!-- recommendation radio -->
+      <fieldset>
+        <legend>Recommendation</legend>
+        <p>Would you recommend us to a friend?</p>
+        <div class="radio-group">
+          <label><input type="radio" name="recommend" value="definitely" required>Definitely</label>
+          <label><input type="radio" name="recommend" value="maybe">Maybe</label>
+          <label><input type="radio" name="recommend" value="not_sure">Not sure</label>
+        </div>
+      </fieldset>
+
+      <!-- feature dropdown -->
+      <fieldset>
+        <legend>Favorite feature</legend>
+        <label for="feature">
+          What is your favorite feature of our platform?
+          <select id="feature" name="feature" required>
+            <option value="">Select an option</option>
+            <option>Challenges</option>
+            <option>Projects</option>
+            <option>Community</option>
+            <option>Open source</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <!-- improvements checkboxes -->
+      <fieldset>
+        <legend>Improvements</legend>
+        <p>What would you like to see improved? <span>(check all that apply)</span></p>
+        <div class="checkbox-group">
+          <label><input type="checkbox" name="improvements" value="front_end">Front-end Projects</label>
+          <label><input type="checkbox" name="improvements" value="back_end">Back-end Projects</label>
+          <label><input type="checkbox" name="improvements" value="data_viz">Data Visualization</label>
+          <label><input type="checkbox" name="improvements" value="challenges">Challenges</label>
+          <label><input type="checkbox" name="improvements" value="community">Open Source Community</label>
+          <label><input type="checkbox" name="improvements" value="gitter">Gitter help rooms</label>
+          <label><input type="checkbox" name="improvements" value="videos">Videos</label>
+          <label><input type="checkbox" name="improvements" value="meetups">City Meetups</label>
+          <label><input type="checkbox" name="improvements" value="wiki">Wiki</label>
+          <label><input type="checkbox" name="improvements" value="forum">Forum</label>
+          <label><input type="checkbox" name="improvements" value="courses">Additional Courses</label>
+        </div>
+      </fieldset>
+
+      <!-- comments textarea -->
+      <fieldset>
+        <legend>Comments</legend>
+        <label for="comments">
+          Any comments or suggestions?
+          <textarea id="comments" name="comments" rows="5" placeholder="Enter your comment here..."></textarea>
+        </label>
+      </fieldset>
+
+      <input type="submit" value="Submit">
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 - <a href="https://github.com/dmtr-g/survey-form" target="_blank" rel="noopener">dmtr-g GitHub</a></p>
+  </footer>
+</body>
+</html>
