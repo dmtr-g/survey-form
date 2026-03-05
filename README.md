@@ -79,7 +79,7 @@ Key things practised:
 
 - Semantic form structure using `fieldset` and `legend` to group related inputs logically
 - CSS `accent-color` to style native checkboxes and radio buttons without replacing them with custom elements
-- Layered CSS animations — `fadeIn`, `slideDown`, and a repeating `neon` pulse — all triggered on page load without JavaScript
+- Layered CSS animations - `fadeIn`, `slideDown`, and a repeating `neon` pulse - all triggered on page load without JavaScript
 - CSS custom properties for a consistent dark/neon colour palette across every element
 - `box-shadow` with `rgba` for the neon glow effect on focus and on the submit button
 - `radial-gradient` on the body to create depth without an image
