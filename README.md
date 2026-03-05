@@ -12,8 +12,7 @@ Collects user feedback through a structured form: personal details, role selecti
 
 ## Demo
 
-<!-- Add a screenshot here -->
-![Survey Form screenshot](screenshot.png)
+./screenshot.png
 
 > **To run locally:** open `index.html` directly in any browser. No server needed.
 
