@@ -12,7 +12,8 @@ Collects user feedback through a structured form: personal details, role selecti
 
 ## Demo
 
-./screenshot.png
+<img width="1375" height="1632" alt="screenshot" src="https://github.com/user-attachments/assets/1357fa5c-9b95-4aa3-9db1-614e435763c5" />
+
 
 > **To run locally:** open `index.html` directly in any browser. No server needed.
 
